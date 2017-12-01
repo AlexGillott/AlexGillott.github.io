@@ -3,18 +3,21 @@ HEADER {
         text-align:center;
         font-family:verdana;
         padding-top: 10px;
-        padding-bottom: 25px;
+        padding-bottom: 10px;
 }
 
+ul.HEADER {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-
+li.HEADER {
+    display: inline;
+}
 
 
 body {
       background-color: #2C3539;
       font-family:verdana;
-}
-
-HEADER {
-        padding-top: 10px
 }
