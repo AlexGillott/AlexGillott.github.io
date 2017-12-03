@@ -1,26 +1,54 @@
+<!-- Design of website used a modified template from http://templated.co under Creative Commons Attribution License -->
+<!-- URL of template used https://templated.co/adequately -->
+
+
 <!DOCTYPE html>
 <HTML>
 	<HEAD>
+        <!-- metatags - guidence taken from https://www.w3schools.com/tags/tag_meta.asp -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./style.css" type="text/css" rel="stylesheet">
 		<TITLE>Alex Gillott</TITLE>
 	</HEAD>
-    <HEADER>
-        <h1>Alex Gillott</h1>
-        <h2><i>Environmental scientist specialising in GIS</i></h2>
-        <ul class="HEADER">
-            <li class="HEADER"><a href="https://www.linkedin.com/in/alex-gillott-a35b92150/" target="_blank">
-                    <img src="LinkedIn_Logo.svg.png" alt="linkedin logo" style="width:110px;height:30px;border:0;"></a></li>
-            <li class="HEADER"><a href="https://github.com/AlexGillott" target="_blank">
-                <img src="github.png" alt="github logo" style="width:120px;height:32px;border:0;"></a></li>
-        </ul>   
-    </HEADER>
 
 <!-- Main body of the homepage -->
-	<BODY>
-        <div>
-		  <h1> Online portfolio for my programming and GIS outputs</h1>
-		  Hello charlotte. satisfied?
-        
+<!-- position of initial <div> elements taken from template -->
+<BODY>
+    <div id="header-section1">
+        <div id="header" class="container">
+            <div id="Intro">
+                <h1 id="intro_1">ALEX GILLOTT</h1>
+                <h3 id="intro_2">Environmental scientist specialising in GIS</h3>
+            </div>
         </div>
+            <div>
+                <ul class="HEADER">
+                    <li class="HEADER"><a href="https://www.linkedin.com/in/alex-gillott-a35b92150/" target="_blank">
+                        <img src="LinkedIn_Logo.svg.png" alt="linkedin logo" style="width:110px;height:30px;border:0;"></a>&nbsp</li>
+                    <li class="HEADER"><a href="https://github.com/AlexGillott" target="_blank">
+                        <img src="github.png" alt="github logo" style="width:120px;height:30px;border:0;"></a></li>
+                </ul>    
+        
+            </div>
+    </div>    
+    
+    
+<!-- Second section of website --> 
+     
+    <div id="wrapper1">
+        <div id="section2">
+		  <h1> Welcome to my online programming and GIS portfolio</h1>
+            <div>
+                <p class="introduction">I am currently studying for a master's in Geographical Information Systems at the University of Leeds after having obtained a BSc
+            in Environmental Science at the University of Plymouth. As part of my programming module for my MSc I have created an agent based model in Python 3 based on the practical work completed during lectues and for the module final project will be creating an application that combines maps of the UK in a Jupyter Notebook. As this website is updated I will be adding examples of work I have done in GIS software packages such as ArcGIS, MapInfo and QGIS as well as showcasing work completed in R and Tableau. For more detailed information about me please see my "about me" page. 
+                </p>
+            </div>
+            <div>
+                <a href="http://www.geog.leeds.ac.uk/study/masters/courses/msc-in-gis/" class="button">MSc University of leeds</a>
+                <a href="https://www.plymouth.ac.uk/courses/undergraduate/bsc-environmental-science" class="button">BSc University of plymouth</a>
+            </div>
+        </div>
+    </div>
 	</BODY>
 </HTML>
