@@ -124,12 +124,12 @@ li.HEADER {
         
 }
 
-.button /* Button values taken directly from template - only minor modification e.g. colour of button */
+.button /* Button values taken directly from template - only minor modification e.g. colour of button and added width */
 	{
 		display: inline-block;
 		margin-top: 2em;
 		padding: 1em 2em 1em 2em;
-		background: #8DCB89;
+		background: #E5E4E2;
 		border-radius: 8px;
 		letter-spacing: 0.20em;
 		line-height: 1.8em;
@@ -137,7 +137,7 @@ li.HEADER {
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 1.2em;
-		color: #FFF;
+		color: #000000;
         margin-right: 15px;
         margin-left: 15px;
         width: 500px;
