@@ -64,6 +64,48 @@ html, body
 	}
 
 
+/* Menu bar. Values and design taken diretly from template with some minor modifications */
+
+#menu
+	{
+	}
+	
+#menu ul
+	{
+		text-align: center;
+	}
+	
+#menu li
+	{
+		display: inline-block;
+	}
+	
+#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: black;
+	}
+	
+#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+#menu .current_page_item a
+	{
+		background: #C0C0C0;
+		border-radius: 8px;
+		color: black;
+	}
+
+
 /* Following section written by me with guidance from www.w3schools.com and the source template */
 
     /* Section 1 */
@@ -71,7 +113,7 @@ html, body
 #header-section1
 	{
 		overflow: hidden;
-		padding: 7em 0em; /* values taken from source template */
+		padding: 1.5em 0em; /* values taken from source template */
 		background: #E5E4E2;
 	}
 
@@ -79,6 +121,12 @@ html, body
 	{
      text-align:center;
 	}
+
+#intro
+    {
+        padding-top: 20px;
+    }
+
 #intro_1
     {
      padding-bottom: 10px
@@ -111,7 +159,7 @@ li.HEADER {
 	{
         overflow: hidden;
         padding-top: 5em;
-        padding-bottom: 15em;
+        padding-bottom: 5em;
 		text-align: center;
 		color: darkgray;
     }
@@ -120,9 +168,8 @@ li.HEADER {
     {
         padding: 0em 8em; /* values taken from template */
         padding-top: 20px;
-        font-weight: bold;
-        
-}
+        font-weight: bold;      
+    }
 
 .button /* Button values taken directly from template - only minor modification e.g. colour of button and added width */
 	{
@@ -142,3 +189,138 @@ li.HEADER {
         margin-left: 15px;
         width: 500px;
 	}
+
+    /* Section 3 */
+
+#wrapper3 /* Taken from template */
+	{
+		background: #E5E4E2;
+	}
+
+#section3 /* Taken from template */
+    {
+        overflow: hidden;
+        padding-top: 5em;
+        padding-bottom: 5em;
+		text-align: center;
+		color: black;
+    }
+
+
+/* Column and box attributes taken from template with minor modifications */
+
+.containersec3
+	{
+		margin: 0px auto;
+		width: 1400px;
+	}
+
+.h3column
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+ul.portfoliolist
+    {
+        display: inline-block;
+        list-style-type: disc;
+        text-align: left;
+        list-style-position: inside; 
+        padding-bottom: 20px;
+    }
+
+li.portfoliolist
+    {
+        padding-bottom: 10px;
+    }
+
+.column1
+    {
+        width: 600px;
+        text-align: center;
+        float:left;
+    }
+
+.column2
+    {
+        width: 600px;
+        text-align: left;
+        float: left;
+        padding-left: 190px; 
+    }
+
+.box
+    {
+        text-align: center;
+		color: black;
+    }
+
+p.box
+    {
+        text-align: left;
+    }
+
+/* Values for button taken from template. Only colour and width modified by me */
+.smallbutton
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		background: #000000;
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		line-height: 1.8em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #E5E4E2;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: 290px;
+	}
+
+
+/* Copyright section. CSS values taken directly from the template */
+
+#copyright
+    {
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+	
+#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+/* About site CSS */
+
+    
+.aboutsitelink
+    {
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+        font-style: italic;
+        text-decoration: underline;
+	}
+
+.aboutsiteP
+    {
+        padding: 0em 8em; /* values taken from template */
+        padding-top: 20px;
+        font-weight: bold;
+        text-align: left;
+    }

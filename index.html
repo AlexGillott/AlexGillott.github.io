@@ -17,7 +17,14 @@
 <BODY>
     <div id="header-section1">
         <div id="header" class="container">
-            <div id="Intro">
+            <div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">Homepage</a></li>
+				<li><a href="#">About me</a></li>
+				<li><a href="AboutSite.html">About site</a></li>
+			</ul>
+            </div>
+            <div id="intro">
                 <h1 id="intro_1">ALEX GILLOTT</h1>
                 <h3 id="intro_2">Environmental scientist specialising in GIS</h3>
             </div>
@@ -50,5 +57,64 @@
             </div>
         </div>
     </div>
-	</BODY>
+    
+<!-- Section 3 of homepage -->    
+   
+    <div id="wrapper3">
+        <div id="section3">
+            <h1 id="intro_1">Programming Module Portfolio</h1>
+            <div>
+                <p class="introduction">The following links will take you to my github repositories that contain an agent based model and an application that will combine maps of the UK in a Jupyter notebook (under construction). For further details on these two projects please see their sections that have been detailed below.
+                </p>
+            </div>
+        <div class="containersec3">
+                <div class="column1">
+                    <div class="box">
+                        <h3 class="h3column">Agent Based Model</h3>
+                        <p class="box">This model was created during practical sessions to give experience of coding with Python and provide a framework that students can use when they come to code their independant project. The basic elements of what this model does are:</p>
+                        <ul class="portfoliolist">
+                            <li class="portfoliolist">Builds agents in space</li>
+                            <li class="portfoliolist">Provides each agent a list of the others so they can interact</li>
+                            <li class="portfoliolist">Read in environmental data from a web file</li>
+                            <li class="portfoliolist">Make the agents interact with the environment</li>
+                            <li class="portfoliolist">Randomise the order of the agent actions</li>
+                            <li class="portfoliolist">Display the model as an animation</li>
+                            <li class="portfoliolist">Provides a GUI to run the model from</li>
+                        </ul>
+                        <div>
+                        <a href="#" class="smallbutton" target="_blank">Agent Based Model</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="box">
+                        <h3 class="h3column">Independent project</h3>
+                        <p class="box">My independent project is based off of a site location problem and will be completed in a Jupyter Notebook. It will involve reading in 3 maps of the UK that show geology, transport network and population density and combining them. Overall it will:</p>
+                        <ul class="portfoliolist">
+                            <li class="portfoliolist">Read in 3 maps of the UK showing different factors</li>
+                            <li class="portfoliolist">Have a GUI that allows the user to combine the maps</li>
+                            <li class="portfoliolist">Combining/merging of the maps will be done via scrollbars</li>
+                            <li class="portfoliolist">The 3 values for each pixel will be multiplied by the scrollbar value</li>
+                            <li class="portfoliolist">The values for each map will then be added together</li>
+                            <li class="portfoliolist">The numbers will be re-ranged so they are within 0 and 255</li>
+                            <li class="portfoliolist">The user will be able to save a weighted map in a raster style CSV Text file</li>
+                        </ul>
+                         <div>
+                        <a href="#" class="smallbutton" target="_blank">Site location</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <!-- Copyright section -->
+    
+    <!-- Code taken directly from template -->
+    
+    <div id="copyright">
+        <p>&copy; Alex Gillott. All rights reserved. | Design by <a href="http://templated.co" target="_blank">TEMPLATED</a> and modified by alex gillott under the <a href="https://creativecommons.org/licenses/by/4.0/">creative commons attribution license.</a>
+        </p>
+    </div>
+</BODY>
 </HTML>
