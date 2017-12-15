@@ -346,9 +346,18 @@ p.box
 .Paboutme
     {
         padding: 0em 8em; /* values taken from template */
-        padding-top: 20px;
+        padding-top: 10px;
         padding-left: 15em;
         padding-right: 15em;
         font-weight: bold;
         text-align: left;
+    }
+
+#sectionaboutme
+	{
+        overflow: hidden;
+        padding-top: 5em;
+        padding-bottom: 3em;
+		text-align: center;
+		color: darkgray;
     }
